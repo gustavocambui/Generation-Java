@@ -3,7 +3,7 @@ package exerciciosLista02;
 
 import java.util.Scanner;
 
-public class ExercicioLacoDeDecisao01 {
+public class Exercicio01 {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner (System.in);
@@ -13,12 +13,13 @@ public class ExercicioLacoDeDecisao01 {
 		maior = n1;
 		n2 = entrada.nextInt();
 		n3 = entrada.nextInt();
-	    if(n2>n1 && n2>n3){
+	    	
+			if(n2>n1 && n2>n3){
 	    	maior = n2;
-	    }
-	    else if(n3>n1){
+	    	}
+	    	else if(n3>n1){
 	    	maior = n3;
-	    }
+	    	}
 	    System.out.println("O maior número é: " + maior);
 		
 	}
